@@ -1,0 +1,36 @@
+{
+    "bail": true,
+    "expand": true,
+    "verbose": true,
+    "useStderr": true,
+    "forceExit": true,
+    "logHeapUsage": true,
+    "collectCoverage": true,
+    "name": "contentscheduler",
+    "testRegex": "(./ci/__tests__/.*| (\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "transform": {
+        "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "node"
+    ],
+    "coveragePathIgnorePatterns": [
+        "./dist/",
+        "./node_modules/"
+    ],
+    "coverageReporters": [
+        "json",
+        "lcov",
+        "text"
+    ],
+    "globals": {
+        "ts-jest": {
+            "enableTsDiagnostics": true
+        }
+    }
+}
