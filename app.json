@@ -1,0 +1,11 @@
+{
+    "name": "contentscheduler",
+    "description": "Bot to post content in Telegram channels.",
+    "repository": "https://github.com/Fazendaaa/contentscheduler.git",
+    "logo": "https://github.com/Fazendaaa/contentscheduler/blob/dev/logo/logo.svg",
+    "keywords": [
+        "bot",
+        "telegram",
+        "typescript"
+    ]
+}
