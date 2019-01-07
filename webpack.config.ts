@@ -1,6 +1,7 @@
 import { join } from 'path';
+import UglifyJsPlugin from 'uglifyjs-webpack-plugin';
 
-const nonRelative = (path: string): string => join(__dirname, `./src/lib/${path}`);
+//const nonRelative = (path: string): string => join(__dirname, `./src/lib/${path}`);
 
 module.exports = {
     target: 'node',
@@ -12,6 +13,16 @@ module.exports = {
     output: {
         filename: 'main.js',
         path: join(__dirname, 'dist')
+    },
+    optimization: {
+        minimize: true,
+        minimizer: [
+            new UglifyJsPlugin(
+                {
+                    include: /\.min\.js$/
+                }
+            )
+        ]
     },
     resolve: {
         alias: {
