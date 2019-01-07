@@ -9,7 +9,7 @@ deploy:
   provider: heroku
   api_key:
     secure: gjQ7OoJ/vpQKnR1Jgfh1rLEVJGn27FMvCaY3eh79UhQiy6NiAu14ijDaykI+3FabEj6AjjoVkkzKPwUxrCDJcH8xBRfOXnjQQQHaLrJ5/lnhu+Q0GcXHDGBBAFLmlLif7NSZ0T9qdBFD18EVxP5K+NdML3UwLld8390JVSl9ipZMzmvmHfDGWkyHhw04Ha64zl5cPBWYaAKXY3YMy3k3ad/wMgwjh/nUD7xWdSus1fsKpwqCPDj3yXiRySCaRth1vih5GH/uwZrB+ESJDeAPhtqY6ZVx0Z2yB37UW6sLK7Rgyn0UjTICAVjtZ67CC15IdAdcl4GqzMSzIOObq3K4yHM173hUKJtmlEg2tQuviI+zv27cAok12F23kkJR9OO02m3rNYdbQgH+JNK7M0pMiwJXe7Is77LEX73vIOFg7EFd5fgjGZLx8ueNOol9zx/eJ3xfEh6rtMT8narPf/raaS9yw44xeLxboX/l01jBZy6D4iONBABnjWON008MjQIuFOjBPefCzHyPF/TPDNx2FJrx0QdEWZ4EzLox6AoLAk1pqottsQaMT0+KKIXtWcz6NwpgCCX0EsSKKkq6dcSBUftCOYd42R4A4w4X8EuJpbaV7zthzQTaOont3R+GqiGgvtwV/Zb8QUP5/4azBaSqQsZ+Q/qeSJwBNqK2/s6QCT0=
-  app: ContentScheduler
+  app: contentscheduler
   on:
     repo: Fazendaaa/ContentScheduler
     branch: master
